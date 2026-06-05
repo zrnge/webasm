@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0d0e12;
+    color: #e2e8f0;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  /* Custom dark scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #0f172a;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+  }
+}
+
+@theme {
+  --color-cyber-dark: #090a0f;
+  --color-cyber-card: #13151c;
+  --color-cyber-border: #1e2230;
+  --color-cyber-purple: #9061f9;
+  --color-cyber-purple-hover: #7e3af2;
+  --color-cyber-green: #10b981;
+  --color-cyber-blue: #3b82f6;
+  --color-cyber-orange: #f59e0b;
+}
+
+/* Animations for drag and drop */
+@keyframes pulse-border {
+  0%, 100% { border-color: rgba(144, 97, 249, 0.4); }
+  50% { border-color: rgba(144, 97, 249, 1); }
+}
+
+.animate-pulse-border {
+  animation: pulse-border 2s infinite ease-in-out;
+}
