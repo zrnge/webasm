@@ -2,6 +2,22 @@
 
 <img width="1440" height="252" alt="image" src="https://github.com/user-attachments/assets/a33d97cc-90c5-4d62-bec2-259f7874f56c" />
 
+<svg width="360" height="110" viewBox="0 0 360 110" xmlns="http://www.w3.org/2000/svg">
+  <title>WEBASM logo</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&amp;display=swap');
+      .wm { font-family: 'Montserrat', Arial, sans-serif; font-weight: 800; font-size: 56px; letter-spacing: -2px; }
+    </style>
+    <linearGradient id="purp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#c06bff"/>
+    </linearGradient>
+  </defs>
+  <text x="180" y="72" class="wm" text-anchor="middle">
+    <tspan fill="#ffffff">WEB</tspan><tspan fill="url(#purp)">ASM</tspan>
+  </text>
+</svg>
 
 [![Author](https://img.shields.io/badge/Author-Zrnge-purple?style=for-the-badge&logo=github)](https://github.com/zrnge)
 [![Website](https://img.shields.io/badge/Website-zrnge.github.io-blue?style=for-the-badge&logo=google-chrome)](https://zrnge.github.io)
