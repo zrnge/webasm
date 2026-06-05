@@ -1,6 +1,6 @@
 # WEBASM - Web Disassembler
 
-<img width="200" height="252" alt="image" src="https://github.com/user-attachments/assets/a33d97cc-90c5-4d62-bec2-259f7874f56c" />
+<img width="1440" height="252" alt="image" src="https://github.com/user-attachments/assets/a33d97cc-90c5-4d62-bec2-259f7874f56c" />
 
 
 [![Author](https://img.shields.io/badge/Author-Zrnge-purple?style=for-the-badge&logo=github)](https://github.com/zrnge)
