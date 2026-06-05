@@ -1,10 +1,10 @@
-# Online-Disassembler
+# WEBASM - Web Disassembler
 
 [![Author](https://img.shields.io/badge/Author-Zrnge-purple?style=for-the-badge&logo=github)](https://github.com/zrnge)
 [![Website](https://img.shields.io/badge/Website-zrnge.github.io-blue?style=for-the-badge&logo=google-chrome)](https://zrnge.github.io)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/zrnge/Online-Disassembler/blob/main/LICENSE)
 
-A premium, 100% client-side multi-architecture static disassembler designed for security analysts and reverse engineers. It runs entirely in the web browser with **no backend servers**, meaning uploaded binaries never leave your machine. It is pre-configured to build and deploy directly as a static site on GitHub Pages.
+WEBASM is a premium, 100% client-side multi-architecture static disassembler designed for security analysts and reverse engineers. It runs entirely in the web browser with **no backend servers**, meaning uploaded binaries never leave your machine. It is pre-configured to build and deploy directly as a static site on GitHub Pages.
 
 Live Example: [zrnge.github.io/Online-Disassembler/](https://zrnge.github.io/Online-Disassembler/)
 
@@ -151,4 +151,4 @@ To support relative subpath routing on GitHub Pages (e.g. `https://<user>.github
 Developed and maintained by **Zrnge**
 - **GitHub**: [@zrnge](https://github.com/zrnge)
 - **Website & Projects**: [zrnge.github.io](https://zrnge.github.io)
-- **Repository**: [Online-Disassembler](https://github.com/zrnge/Online-Disassembler)
+- **Repository**: [WEBASM (Online-Disassembler)](https://github.com/zrnge/Online-Disassembler)
