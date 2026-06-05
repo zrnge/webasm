@@ -1,5 +1,8 @@
 # WEBASM - Web Disassembler
 
+<img width="1440" height="252" alt="image" src="https://github.com/user-attachments/assets/a33d97cc-90c5-4d62-bec2-259f7874f56c" />
+
+
 [![Author](https://img.shields.io/badge/Author-Zrnge-purple?style=for-the-badge&logo=github)](https://github.com/zrnge)
 [![Website](https://img.shields.io/badge/Website-zrnge.github.io-blue?style=for-the-badge&logo=google-chrome)](https://zrnge.github.io)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/zrnge/webasm/blob/main/LICENSE)
