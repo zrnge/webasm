@@ -1,8 +1,12 @@
 # Online-Disassembler
 
+[![Author](https://img.shields.io/badge/Author-Zrnge-purple?style=for-the-badge&logo=github)](https://github.com/zrnge)
+[![Website](https://img.shields.io/badge/Website-zrnge.github.io-blue?style=for-the-badge&logo=google-chrome)](https://zrnge.github.io)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/zrnge/Online-Disassembler/blob/main/LICENSE)
+
 A premium, 100% client-side multi-architecture static disassembler designed for security analysts and reverse engineers. It runs entirely in the web browser with **no backend servers**, meaning uploaded binaries never leave your machine. It is pre-configured to build and deploy directly as a static site on GitHub Pages.
 
-Live Example: `https://<username>.github.io/Online-Disassembler/`
+Live Example: [zrnge.github.io/Online-Disassembler/](https://zrnge.github.io/Online-Disassembler/)
 
 ---
 
@@ -139,3 +143,12 @@ To support relative subpath routing on GitHub Pages (e.g. `https://<user>.github
 - **Deobfuscation & Packing**: This is a static disassembler. Packed or heavily obfuscated binaries (e.g., UPX, VMProtect) will display encrypted/compressed section payloads or stub loaders. Dynamic analysis or unpacking is required before disassembly.
 - **Decompilation**: This tool outputs raw assembly mnemonics (Capstone). It does not contain a decompiler (C-like pseudocode generator) or control-flow graph (CFG) rendering, which require native graph solvers.
 - **Symbol Names**: Symbol names are extracted from standard header tables (Exports for PE, `.symtab` / `.dynsym` for ELF). If a binary has been stripped of symbols (which is typical for release builds or malicious files), function targets will be resolved to standard addresses instead of names.
+
+---
+
+## 👤 Author
+
+Developed and maintained by **Zrnge**
+- **GitHub**: [@zrnge](https://github.com/zrnge)
+- **Website & Projects**: [zrnge.github.io](https://zrnge.github.io)
+- **Repository**: [Online-Disassembler](https://github.com/zrnge/Online-Disassembler)
