@@ -204,6 +204,19 @@ export const MetadataView: React.FC<MetadataViewProps> = ({
           </div>
         )}
       </div>
+      
+      {/* Subtle Author Credit */}
+      <div className="p-2.5 border-t border-[#1e2230] text-center text-[10px] text-slate-500 bg-[#0d0e12]/30 select-none shrink-0">
+        Developed by{' '}
+        <a
+          href="https://zrnge.github.io"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-purple-400 hover:text-purple-300 font-semibold transition-colors"
+        >
+          Zrnge
+        </a>
+      </div>
     </div>
   );
 };
