@@ -170,7 +170,7 @@ function App() {
           </div>
           <div>
             <span className="font-extrabold text-sm tracking-tight text-white">
-              Online <span className="text-purple-400">Disassembler</span>
+              WEB<span className="text-purple-400">ASM</span>
             </span>
           </div>
         </div>
