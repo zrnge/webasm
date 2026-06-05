@@ -32,6 +32,6 @@ function copyCapstoneWasm() {
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(), copyCapstoneWasm()],
-  base: './',
+  base: '/Online-Disassembler/',
 })
 
