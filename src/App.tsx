@@ -76,7 +76,7 @@ function App() {
     };
 
     // Resolve absolute path to capstone.wasm relative to site origin and base path
-    // Vite BASE_URL handles subpaths like /Online-Disassembler/ or ./
+    // Vite BASE_URL handles subpaths like /webasm/ or ./
     const baseUrl = new URL(import.meta.env.BASE_URL, window.location.href);
     const wasmUrl = new URL('capstone.wasm', baseUrl).href;
 
